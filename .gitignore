@@ -1,14 +1,9 @@
-# ==========================================
-# LiberoScroller .gitignore
-# ==========================================
 
-# 1. Build Folders
 build/
 out/
 bin/
 obj/
 
-# 2. CMake Temporary Files
 CMakeCache.txt
 CMakeFiles/
 CMakeScripts/
@@ -18,7 +13,6 @@ install/
 compile_commands.json
 CTestTestfile.cmake
 
-# 3. Compiled Binaries & Libraries
 *.exe
 *.dll
 *.lib
@@ -28,15 +22,12 @@ CTestTestfile.cmake
 *.so
 *.dylib
 
-# 4. Visual Studio Code Local Settings
 .vscode/
 *.code-workspace
 
-# 5. vcpkg (Package Manager)
 vcpkg_installed/
 .vcpkg-root
 
-# 6. Optional: Large AI Models
 # lbfmodel.yaml is ~54MB, which fits under GitHub's 100MB limit, so it's usually fine to upload!)
 # lbfmodel.yaml
 # haarcascade_frontalface_default.xml
