@@ -22,7 +22,7 @@ Instead of blindly searching for dark pixels, LiberoScroller 2.0 calculates the 
 
 When the eye closes, the top and bottom eyelids touch, causing the numerator to approach zero. This makes the tracking mathematically flawless.
 
-$$ \text{EAR} = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2 ||p_1 - p_4||} $$
+$$ \text{EAR} = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2 |p_1 - p_4|} $$
 
 ---
 
