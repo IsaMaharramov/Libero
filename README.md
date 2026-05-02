@@ -80,6 +80,3 @@ Look at the camera feed. You should see a green mesh accurately tracking your ey
 Click on the window you want to scroll (e.g., a PDF reader or web browser).
 
 Close your eyes for 1.5 seconds. The program will automatically begin scrolling down until you open your eyes again. Press ESC in the camera window to exit.
-
-
-# *Built with C++, OpenCV, Music and Caffeine.*
