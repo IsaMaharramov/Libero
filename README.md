@@ -17,7 +17,7 @@ By using state-of-the-art **Facial Landmark Detection**, it tracks the user's ey
 
 ---
 
-## Under the Hood: The EAR Algorithm
+## The EAR Algorithm
 Instead of blindly searching for dark pixels, LiberoScroller 2.0 calculates the physical geometry of your eye using the Eye Aspect Ratio. 
 
 When the eye closes, the top and bottom eyelids touch, causing the numerator to approach zero. This makes the tracking mathematically flawless.
